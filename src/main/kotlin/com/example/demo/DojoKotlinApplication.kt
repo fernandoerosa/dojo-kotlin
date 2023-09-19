@@ -22,7 +22,7 @@ fun calculateChange(totalValue: Double, paidValue: Double) {
     }
 
     val billsAndCoins = arrayOf(100.0, 50.0, 10.0, 5.0, 1.0, 0.5, 0.1, 0.05, 0.01)
-    val billAndCoinNames = arrayOf("100-dollar bills", "50-dollar bills", "10-dollar bills", "5-dollar bills", "1-dollar bills", "50-cent coins", "10-cent coins", "5-cent coins", "1-cent coins")
+    val billAndCoinNames = arrayOf("100-real bills", "50-real bills", "10-real bills", "5-real bills", "1-real bills", "50-cent coins", "10-cent coins", "5-cent coins", "1-cent coins")
     var remainingChange = change
 
     println("Change to be provided:")
