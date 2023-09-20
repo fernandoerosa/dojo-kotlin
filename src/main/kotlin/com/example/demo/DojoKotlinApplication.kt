@@ -6,6 +6,8 @@ import ChangeHelper
 @SpringBootApplication class DojoKotlinApplication
 
 fun main(args: Array<String>) {
+    println(args)
+
     val calculator = ChangeHelper()
 
     val totalValue: Double = 150.0 // Total amount to be paid
